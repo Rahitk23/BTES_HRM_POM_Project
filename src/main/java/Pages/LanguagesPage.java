@@ -9,6 +9,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LanguagesPage {
+
+//A LanguagesPage is created in Pages package.
 	public Actions action;
 	public WebDriver driver;
 
