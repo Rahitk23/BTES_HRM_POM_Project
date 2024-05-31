@@ -53,7 +53,7 @@ public class LanguagesPage {
 	@FindBy(xpath = "//*[@class=\"noresultsbar\"]")
 	WebElement noRecords;
 
-	@FindBy(xpath = "//*[text()=\"LAN020\"]")
+	@FindBy(xpath = "//*[text()=\"LAN017\"]")
 	WebElement actualElement;
 
 	@FindBy(xpath = "//*[@class='data-table']/tbody/*/td[@class]/input")

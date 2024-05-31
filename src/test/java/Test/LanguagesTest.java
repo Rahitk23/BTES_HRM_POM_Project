@@ -77,7 +77,7 @@ public class LanguagesTest extends TestBase {
 		language.enter_Language_ID_into_search_For(prop.getProperty("LangValidID"));
 		language.click_search_button();
 		String actualElementText = language.get_actual_Element_text();
-		String expectedElementText = "LAN020";
+		String expectedElementText = "LAN017";
 		Assert.assertEquals(actualElementText, expectedElementText);
 
 	}
